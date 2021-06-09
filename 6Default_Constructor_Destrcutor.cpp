@@ -24,11 +24,12 @@ class c
     }
     void get()
     { z=x+y;
-     cout<<"Sum is"<<z<<endl;
+     cout<<"Sum is "<<z<<endl;
     }
 };
 int main()
 {
+    cout<<"Program for Sum of numbers using constructor and destructor\n";
     c p;
     p.show();
     p.get();
