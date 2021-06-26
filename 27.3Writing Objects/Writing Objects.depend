@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1563802409 source:d:\akshit data\code blocks projects\c++\writing objects\main.cpp
+	<iostream>
+	<fstream>
+
