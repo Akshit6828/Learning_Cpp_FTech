@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1563559065 source:d:\akshit data\code blocks projects\c++\appending to file\main.cpp
+	<iostream>
+	<fstream>
+
