@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1563560765 source:d:\akshit data\code blocks projects\c++\copy the contents of one files to other\main.cpp
+	<iostream>
+	<fstream>
+
