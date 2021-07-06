@@ -1,4 +1,4 @@
-// Problem URL: https://www.codechef.com/problems/HS08TEST
+// CC Problem URL: https://www.codechef.com/problems/HS08TEST
 #include <iostream>
 #include<iomanip>
 #include<stdlib.h>
