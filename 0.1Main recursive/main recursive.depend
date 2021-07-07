@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1577101775 source:d:\akshit data\main recursive\main.c
+	<stdio.h>
+	<stdlib.h>
+
