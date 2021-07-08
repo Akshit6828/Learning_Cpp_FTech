@@ -20,7 +20,7 @@ int main()
     {
     case 1:
         {
-
+            // Just checking if empty brackets would do anything new.
         }
         for(i=0;i<=n;i++)
         {
