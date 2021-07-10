@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1566763187 source:d:\akshit data\code blocks projects\my projects\node implimentation\main.c
+	<stdio.h>
+	<stdlib.h>
+	<conio.h>
+	<malloc.h>
+

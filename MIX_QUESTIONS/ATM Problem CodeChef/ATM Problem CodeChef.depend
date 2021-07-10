@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1576781123 source:d:\akshit data\atm problem codechef\main.cpp
+	<iostream>
+	<iomanip>
+	<stdlib.h>
+
