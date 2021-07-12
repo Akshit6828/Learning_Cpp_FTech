@@ -1,43 +1,29 @@
  #include <stdio.h>
 #include <stdlib.h>
-void english(int );
+void print_English(int );
+
+
+void solve(int n){
+    if(n==0){
+        return;
+    }
+     else{
+         int t = n%10;
+         solve(n/10);
+         print_English(t);
+     }
+}
+
 int main()
 {
     int n,e;
     printf("Enter n");
     scanf("%d",&n);
-    e=n;
-    english(e);
+    solve(n);
     return 0;
 }
-void english(int e)
-{
-    int n,z;
-    int op,tp,hp;
-    if(e>100)
-    {
-     hp=e/100;
-     int z=hp;
-     goto print;
-     e=e-100;
-     english(e);
-    }
-    else if(e>10&&e<100)
-    {
-     tp=e/10;
-     e=tp;
-     z=e;
-     goto print;
-     e=e%10;
-     english(e);
-    }
-    else
-    {
-        z=e;
-        goto print;
-    }
-    print:
-    switch(z)
+void print_English(int e){
+    switch(e)
     {
 
     case 1:
